@@ -18,7 +18,37 @@ I wanted to track:
 
 ## Key Visuals and Metrics
 
+|Visual|Insight|
+|------|-------|
+|Total Orders & Late Deliveries |Gives a quick summary of order volume and delay statistics|
+|Delivery Status |Breakdown of late, early, on-time, and cancelled deliveries|
+|Orders by Shipping Mode & Status |Compares delivery performance across different shipping types|
+|Shipping Time Comparison | Shows difference between scheduled and actual delivery time|
+|Regional Discounts |Highlights how discounts vary by order state|
 
+## Data Cleaning Steps(Excel)
 
+- I removed irrelevant or redundant columns(e.g duplicate IDs).
+- I converted date columns to date format.
+- I calculated new fields like processing time,monthly trends,delivery risk.
+- Iremoved blanks and ensured consistency across product,region, and status fields.
 
+## Key Insights
+
+- **Over 35k** deliveries were late,which accounts for a significant percentage of total orders.
+- **Standard Class** shipping had the highest number of late deliveries.
+- There is a clear difference between scheduled vs actual shipping time in many months.
+- Certain states received more discounts,suggesting location-based pricing strategies.
+
+## Tools Used
+
+- **Excel** - data cleaning,data formatting,custom fields.
+- **PowerBI** - dashboard design,visualization,DAX measures.
+ 
+### Author
+
+**Chioma Ngene**
+Data Analyst | Procurement & Supply Chain Focused
+- Github: [cynthiadata914](https://github.com/cynthiadata914)
+- Linkedin: [Chioma Ngene](https://www.linkedin.com/in/chioma-ngene)
 
